@@ -1,16 +1,20 @@
 import { Layout } from 'antd'
 
-const { Header, Footer, Sider, Content } = Layout
+// const { Header, Footer, Sider, Content } = Layout
+import Header from './components/Header'
+import Sider from 'antd/lib/layout/Sider'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <Layout>
-      <Header>Header</Header>
+      <Header />
       <Layout>
-        <Sider>Sider</Sider>
-        <Content>Content</Content>
+        <Sider />
+        <Content />
       </Layout>
-      <Footer>Footer</Footer>
+      <Footer />
     </Layout>
   )
 }
