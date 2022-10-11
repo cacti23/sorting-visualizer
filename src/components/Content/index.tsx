@@ -1,7 +1,5 @@
-import { Layout } from 'antd'
-
 function Content() {
-  return <Layout.Content>Content</Layout.Content>
+  return <div>Content</div>
 }
 
 export default Content

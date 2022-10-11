@@ -1,7 +1,5 @@
-import { Layout } from 'antd'
-
 function Footer() {
-  return <Layout.Footer>Footer</Layout.Footer>
+  return <div>Footer</div>
 }
 
 export default Footer
