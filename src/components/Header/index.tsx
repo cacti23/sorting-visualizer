@@ -1,7 +1,5 @@
-import { Layout } from 'antd'
-
 function Header() {
-  return <Layout.Header>Header</Layout.Header>
+  return <div>Header</div>
 }
 
 export default Header
