@@ -1,6 +1,7 @@
 import { ChakraProvider, Box, HStack, VStack } from '@chakra-ui/react'
 import theme from './theme'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,9 +18,8 @@ function App() {
               Content
             </Box>
           </HStack>
-          <Box h="10vh" sx={{ border: '1px solid black' }}>
-            Footer
-          </Box>
+
+          <Footer />
         </VStack>
         <HStack></HStack>
       </Box>
