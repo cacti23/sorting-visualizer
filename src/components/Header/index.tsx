@@ -6,7 +6,7 @@ import ActionButton from '../common/ActionButton/ActionButton'
 
 function Header() {
   return (
-    <Box h="10vh" sx={{ border: '1px solid black' }}>
+    <Box h="10vh">
       <HStack h="100%" spacing={4} p={4}>
         {['Play', 'Generate New Array', 'Add Custom Array'].map(
           (text, index) => (
